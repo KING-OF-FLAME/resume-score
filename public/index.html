@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATS Resume Score Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>ATS Based Resume Score Checker</h1>
+
+  <form id="resumeForm" class="form">
+    <input type="file" id="resume" accept=".pdf" required>
+    <button type="submit" class="btn">Check Resume</button>
+  </form>
+
+  <div id="loading" class="hidden"></div>
+
+  <div id="result" class="hidden">
+    <h2>Results</h2>
+    <div id="scoreBars"></div>
+    <div id="apiContentContainer">
+      <h3>AI Analysis Summary:</h3>
+      <pre id="apiContent"></pre>
+    </div>
+    <a id="downloadPdf" href="#" target="_blank" class="btn-download">Download PDF Report</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
