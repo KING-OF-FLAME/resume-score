@@ -3,7 +3,7 @@
 A powerful and AI-powered ATS resume scoring tool that analyzes resumes, gives **section-wise and overall scores**, and generates a **detailed PDF report**. This tool helps job seekers optimize their resumes for **Applicant Tracking Systems (ATS)** and receive actionable insights.
 
 <p align="center">
-  <img src="https://i.ibb.co/RTHWr3Lp/make-a-logo-for-resume-score-checker.jpg" alt="Resume Score Checker Screenshot" width="250">
+  <img src="https://i.ibb.co/RTHWr3Lp/make-a-logo-for-resume-score-checker.jpg" alt="Resume Score Checker Screenshot" width="200">
   <br>
   <i>(Interactive dashboard and PDF report generation in action)</i>
 </p>
