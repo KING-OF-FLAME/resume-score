@@ -14,7 +14,7 @@ const PORT = 3000;
 // OpenRouter API
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey: "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"
+  apiKey: "Your API KEY"
 });
 
 // Middleware
